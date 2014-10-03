@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <ListView android:layout_height="349dp"
+              android:layout_width="fill_parent"
+              android:layout_marginTop="20dp"
+              android:id="@android:id/list" android:clickable="false"
+              android:drawSelectorOnTop="false" android:focusable="false" android:footerDividersEnabled="false"
+              android:headerDividersEnabled="false" android:longClickable="false" android:choiceMode="singleChoice"
+              android:focusableInTouchMode="false" style="@android:style/Theme.Light" android:background="#ff000000"
+            >
+    </ListView>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingLeft="12dp" android:paddingTop="12dp">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fetch"
+                android:id="@+id/button" android:width="100dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:id="@+id/button2" android:width="100dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/button3" android:width="100dp"/>
+    </LinearLayout>
+</LinearLayout>
